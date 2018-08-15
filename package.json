@@ -1,0 +1,20 @@
+{
+  "name": "node-mqtt-broker",
+  "version": "1.0.0",
+  "description": "A simple MQTT broker written in nodeJS for various IoT projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Geißler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mosca": "^2.8.3"
+  },
+  "devDependencies": {
+    "mqtt": "^2.18.3",
+    "nodemon": "^1.18.3"
+  }
+}
