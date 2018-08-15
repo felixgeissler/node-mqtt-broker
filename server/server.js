@@ -1,6 +1,6 @@
 const mosca = require('mosca');
 
-var mqttPort = process.env.PORT || 3000;
+var mqttPort = process.env.PORT || 3001;
 
 var authenticate = function(client, username, password, callback) {
   var authorized = (username === 'nodeMCU-felix' && password.toString() === 'testpassword');
